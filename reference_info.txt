@@ -1,0 +1,28 @@
+Reference Genome Information
+
+Reference Genome: Homo sapiens (GRCh38)
+Source: Ensembl
+File Used: Homo_sapiens.GRCh38.dna.primary_assembly.fa
+Index Files Generated:
+  - Homo_sapiens.GRCh38.dna.primary_assembly.fa.bwt
+  - Homo_sapiens.GRCh38.dna.primary_assembly.fa.pac
+  - Homo_sapiens.GRCh38.dna.primary_assembly.fa.ann
+  - Homo_sapiens.GRCh38.dna.primary_assembly.fa.amb
+  - Homo_sapiens.GRCh38.dna.primary_assembly.fa.sa
+  - Homo_sapiens.GRCh38.dna.primary_assembly.dict
+
+Alignment Tools Used:
+  - BWA (Version 0.7.18)
+  - Bowtie2 (Version 2.4.4)
+
+Annotation Tools:
+  - snpEff (Version 5.2)
+  - bcftools (Version 1.21)
+
+Download Source:
+  - Ensembl FTP or UCSC Genome Browser
+
+Notes:
+  - The reference genome was indexed using BWA for alignment and snpEff for variant annotation.
+  - The genome build GRCh38 was used for both tumor and normal sample alignment.
+  - All alignment and variant calling steps were performed on a MacBook Air with macOS 15.1.1.
