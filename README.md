@@ -1,2 +1,2 @@
 # Pupil_project
-Analysis of phased methylation patterns (PMPs) for tissue differentiation.
+Data Handling & Statistical Analysis and NGS Data Analysis
